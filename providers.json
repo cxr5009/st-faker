@@ -1,0 +1,93 @@
+[
+    {
+        "group": {
+            "toggle": {
+                "label": "Personal Information",
+                "value": false,
+                "key": "personal_info_toggle",
+                "help": "toggle for personal information-related providers",
+                "on_change": null,
+                "args": null,
+                "kwargs": null,
+                "disabled": false,
+                "label_visibility": "visible"
+            },
+            "popover": {
+                "label": "Personal Information Providers",
+                "help": "List of providers related to personal information",
+                "icon": ":material/person:",
+                "disabled": false,
+                "use_container_width": true,
+                "pills": {
+                    "label": "Select Personal Information Providers",
+                    "options": [
+                        "first_name", "first_name_female", "first_name_male", "first_name_nonbinary",
+                        "last_name", "last_name_female", "last_name_male", "last_name_nonbinary",
+                        "name", "name_female", "name_male", "name_nonbinary",
+                        "prefix", "prefix_female", "prefix_male", "prefix_nonbinary",
+                        "suffix", "suffix_female", "suffix_male", "suffix_nonbinary",
+                        "address", "secondary_address", "street_address", "street_name",
+                        "street_suffix", "city", "city_prefix", "city_suffix", "state",
+                        "state_abbr", "zipcode", "zipcode_in_state", "zipcode_plus4",
+                        "postalcode", "postalcode_in_state", "postalcode_plus4", "country",
+                        "country_code", "country_calling_code", "administrative_unit", "locale", "locales"
+                    ],
+                    "selection_mode": "multi",
+                    "default": [],
+                    "format_func": null,
+                    "key": "personal_info_pills",
+                    "help": "Choose from personal information providers",
+                    "on_change": null,
+                    "args": null,
+                    "kwargs": null,
+                    "disabled": false,
+                    "label_visibility": "visible"
+                }
+            }
+        }
+    },
+    {
+        "group": {
+            "toggle": {
+                "label": "Date & Time",
+                "value": false,
+                "key": "date_time_toggle",
+                "help": "toggle for date and time-related providers",
+                "on_change": null,
+                "args": null,
+                "kwargs": null,
+                "disabled": false,
+                "label_visibility": "visible"
+            },
+            "popover": {
+                "label": "Date & Time Providers",
+                "help": "List of providers related to date and time",
+                "icon": ":material/today:",
+                "disabled": false,
+                "use_container_width": true,
+                "pills": {
+                    "label": "Select Date & Time Providers",
+                    "options": [
+                        "date", "date_object", "date_of_birth", "future_date", "future_datetime",
+                        "past_date", "past_datetime", "date_between", "date_between_dates",
+                        "date_this_century", "date_this_decade", "date_this_month", "date_this_year",
+                        "date_time", "date_time_ad", "date_time_between", "date_time_between_dates",
+                        "date_time_this_century", "date_time_this_decade", "date_time_this_month",
+                        "date_time_this_year", "time", "time_object", "time_delta", "timezone",
+                        "iana_id", "century", "day_of_week", "day_of_month", "month", "month_name", "year"
+                    ],
+                    "selection_mode": "multi",
+                    "default": [],
+                    "format_func": null,
+                    "key": "date_time_pills",
+                    "help": "Choose from date and time providers",
+                    "on_change": null,
+                    "args": null,
+                    "kwargs": null,
+                    "disabled": false,
+                    "label_visibility": "visible"
+                }
+            }
+        }
+    }
+]
